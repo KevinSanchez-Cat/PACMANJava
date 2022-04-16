@@ -31,7 +31,7 @@ public class InicioKreative extends javax.swing.JFrame {
 
         initComponents();
 
-        this.setLocationRelativeTo(null);
+        setLocationRelativeTo(null);
         hiloProgressBar = new HilosDeBarra(jProgressBar1, this);
         hiloProgressBar.start();
         jLabel4.setIcon(new ImageIcon(img1.getImage().getScaledInstance(jLabel4.getWidth(), jLabel4.getHeight(), 4)));
